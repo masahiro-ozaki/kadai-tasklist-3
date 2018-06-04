@@ -23,7 +23,7 @@
                 </tr>
             </table>
         
-            {!! link_to_route('tasks.edit', '編集', ['id' => $task->id], ['class' => 'btn btn-default glyphicon glyphicon-edit']) !!}
+            {!! link_to_route('tasks.edit', ' 編集', ['id' => $task->id], ['class' => 'btn btn-default glyphicon glyphicon-edit']) !!}
             
             {!! Form::model($task, ['route' => ['tasks.destroy', $task->id], 'method' => 'delete']) !!}
                 {!! Form::submit('削除', ['class' => 'btn btn-danger']) !!}
