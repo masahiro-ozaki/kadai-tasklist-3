@@ -44,7 +44,7 @@
         </table>
     @endif
     
-    {!! link_to_route('tasks.create', '新規To doの追加', null, ['class' => 'btn btn-primary']) !!}
+    {!! link_to_route('tasks.create', ' 新規Todoの追加', null, ['class' => 'btn btn-primary glyphicon glyphicon-send']) !!}
 
 </div>
 </div>
